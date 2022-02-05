@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/azure-powershell
+FROM mcr.microsoft.com/azure-powershell:7.1.0-ubuntu-18.04
 
 RUN apt-get update -y
 #RUN apt-get install -y dos2unix software-properties-common
